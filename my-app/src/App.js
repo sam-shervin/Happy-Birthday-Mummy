@@ -1,6 +1,5 @@
-import React from 'react';
+import React from "react";
 import image from "./images/mum.jpg";
-
 
 function App() {
   return (
@@ -12,27 +11,21 @@ function App() {
           src={image}
           alt="Birthday Cake"
         />
-        
+
         <p className="text-lg">
-        Happy Birthday, Mom!
-
-Wishing you a day as beautiful as you are and 
-filled with love, laughter, and joy. You are 
-the guiding light in my life, and I am grateful 
-for your love and support every day. May this 
-year bring you happiness, good health, and all 
-the wonderful things you deserve.
-<br/><br/>
-Thank you for being the best mom in the world.
- Happy Birthday, Mom!
-
-
-        
-        <p className="text-lg mt-4">
-          From,
+          Happy Birthday, Mom! Wishing you a day as beautiful as you are and
+          filled with love, laughter, and joy. You are the guiding light in my
+          life, and I am grateful for your love and support every day. May this
+          year bring you happiness, good health, and all the wonderful things
+          you deserve.
           <br />
-          Sam Shervin
-        </p>
+          <br />
+          Thank you for being the best mom in the world. Happy Birthday, Mom!
+          <p className="text-lg mt-4">
+            From,
+            <br />
+            Sam Shervin
+          </p>
         </p>
       </div>
     </div>
@@ -40,4 +33,3 @@ Thank you for being the best mom in the world.
 }
 
 export default App;
-
